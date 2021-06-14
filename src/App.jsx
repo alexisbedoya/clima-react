@@ -5,19 +5,10 @@ import { Menu as MenuIcon } from '@material-ui/icons'
 function App() {
   return (
     <div> 
-      <Button variant="text" color="primary">
+      <Button variant="outlined" color="secondary"  size  = 'small'>
         color
       </Button>
-      <AppBar position="fixed" color="primary">
-        <Toolbar>
-          <IconButton edge="start" color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6">
-            
-          </Typography>
-        </Toolbar>
-      </AppBar>
+   
     </div>
   );
 }
